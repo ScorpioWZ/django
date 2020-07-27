@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'bootstrap3',
+    # 'bootstrap3',
     # 我的应用程序
     'learning_logs'
 ]
@@ -141,6 +141,6 @@ if os.getcwd() == '/app':
     STATICFILES_DIRS = [(os.path.join(BASE_DIR, 'static'))]
 
 
-BOOTSTRAP3 = {
-    'include_jquery' : True,
-}
+# BOOTSTRAP3 = {
+#     'include_jquery' : True,
+# }
