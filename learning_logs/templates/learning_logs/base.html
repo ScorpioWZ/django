@@ -6,8 +6,8 @@
 </head>
 <body>
     <p>
-        <a href="{% url 'learning_logs:index' %}">Learning logs</a> - <!-- learning_logs:index这里不能有空格-->
-        <a href="{% url 'learning_logs:topics' %}">Topics</a>
+        <a href="{% url 'learning_logs:index' %}" font-size="20">INDEX</a> - <!-- learning_logs:index这里不能有空格-->
+        <a href="{% url 'learning_logs:topics' %}" font-size="20">Topics</a>
     </p>
     {% block content %} {% endblock content %}
 </body>
