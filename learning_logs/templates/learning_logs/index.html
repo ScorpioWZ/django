@@ -6,17 +6,23 @@
 </head>
 <body>
     {% extends "learning_logs/base.html" %}
+
+    {% block header %}
+        <h4>Welcome to the LogWeb, you can edit whatever you want.</h4>
+        <h6>There is no function for deleting topics or entries, so I hope you can add something meaningful, not for testing my web. HAVE FUN!</h6>
+    {% endblock header %}
+{##}
     {% block content %}
-
-        <p>&nbsp;&nbsp;Never give up</p>
-
-        <p>&nbsp;&nbsp;Look ahead</p>
-
-        <p>&nbsp;&nbsp;Stay positive</p>
-
-        <p>&nbsp;&nbsp;Do all you can.</p>
-
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;摘自：高中英语阅读理解</p>
+        <div class="jumbotron">
+            <div class="container">
+                <h3>Never give up</h3>
+                <h3>Look ahead</h3>
+                <h3>Stay positive</h3>
+                <h3>Do all you can.</h3>
+                <br>
+                <p font-size="8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;摘自：高中英语阅读理解</p>
+            </div>
+        </div>
     {% endblock content %}
 </body>
 </html>
